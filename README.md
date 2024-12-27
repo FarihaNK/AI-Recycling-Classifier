@@ -1,5 +1,6 @@
 # AI-Recycling-Classifier
 
+##Code Setup
 recycling-classifier/
 ├── data/
 │   ├── recycling/       # Images of recycling items
@@ -15,3 +16,10 @@ recycling-classifier/
 ├── app.py               # Flask API for image classification
 ├── README.md            # Project documentation
 
+
+## Dataset
+1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification).
+2. Place the extracted folder in `data/images/`.
+3. Run `src/preprocess.py` to preprocess the data and generate `.npy` files.
+
+Alistair King, www.kaggle.com/datasets/alistairking/recyclable-and-household-waste-classification
